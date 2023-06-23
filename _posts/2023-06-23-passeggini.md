@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passeggini
-subtitle: La cosa più complessa che ho acquistato in vita mia
+subtitle: La cosa più complessa che sto acquistato in vita mia
 thumbnail-img: https://kunert-wozki.pl/8901-large_default/booster-3in1-passeggino-gemellare-.jpg
 tags: [passeggino]
 ---
