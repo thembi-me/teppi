@@ -1,0 +1,34 @@
+<html>
+<body style="text-align: center;">
+  <h1 id="title_counter">counter</h1>
+  <button id="button_down">Decrease</button>
+  <button id="button_reset">Reset</button>
+  <button id="button_up">Increase</button>
+</body>
+<script>
+let title_counter = document.getElementById("title_counter");
+let button_reset = document.getElementById("button_reset");
+let button_down = document.getElementById("button_down");
+let button_up = document.getElementById("button_up");
+
+let count = 0;
+title_counter.innerText = count;
+button_up.onclick = function() {
+  count++;
+  title_counter.innerText = count;
+}
+
+button_down.onclick = function() {
+  if (count > 0) {
+    count--;
+    title_counter.innerText = count;
+  }
+}
+
+button_reset.onclick = function() {
+  count = 0;
+  title_counter.innerText = count;
+}
+
+</script>
+</html>

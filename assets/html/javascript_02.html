@@ -1,0 +1,43 @@
+<html>
+<body style="text-align: center;">
+  <h1 id="title_timer">timer</h1>
+  <button id="button_start">Start</button>
+  <button id="button_reset">Reset</button>
+  <button id="button_stop">Stop</button>
+</body>
+<script>
+
+
+let title_timer = document.getElementById("title_timer");
+let button_reset = document.getElementById("button_reset");
+let button_start = document.getElementById("button_start");
+let button_stop = document.getElementById("button_stop");
+
+let count = 0;
+let id = 0;
+title_timer.innerText = count;
+
+button_start.onclick = function() {
+  if (id == 0) {
+    id = setInterval(function() {
+      count++;
+      title_timer.innerText = count;
+    }, 1000);
+  }
+}
+
+button_stop.onclick = function() {
+  if (id != 0) {
+    clearInterval(id);
+    id = 0;
+  }
+}
+
+button_reset.onclick = function() {
+  count = 0;
+  title_timer.innerText = count;
+}
+
+</script>
+</html>
+
