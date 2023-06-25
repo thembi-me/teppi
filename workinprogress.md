@@ -10,6 +10,6 @@ subtitle: A che punto siamo?
 | Macchina | Cioé, sì, in teoria la si vuole cambiare, ma per ora... | TODO |
 | Mobile & C. | Falegname contattato, si attende lunedì | TODO |
 | Zanzariere | Abbiamo preventivi | In progress |
-| Corredini | Tutto da fare qui... | TODO |
+| Corredini | Tutto da fare qui... | In progress |
 | Organizazione casa | Partita! Scriverò qualcosa presto | TODO |
 | Lettini | Eh! Già! Pue questo! | TODO |
