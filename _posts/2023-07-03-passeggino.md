@@ -2,7 +2,7 @@
 layout: post
 title: Il passeggino è partito!
 subtitle: Arriverà qui che avrà già fatto molti kilometri!
-tags: []
+tags: [passeggino]
 comments: true
 ---
 
